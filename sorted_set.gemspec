@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "sorted_set"
-  spec.version       = "1.0.3"
+  spec.version       = "1.0.4"
   spec.authors       = ["Akinori MUSHA"]
   spec.email         = ["knu@idaemons.org"]
 
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   if defined?(JRUBY_VERSION)
     spec.platform = "java"
   else
-    spec.add_runtime_dependency "set", "~> 1.0"
+    spec.add_runtime_dependency "set", "~> 1.1"
     spec.add_runtime_dependency "rbtree"
   end
 end

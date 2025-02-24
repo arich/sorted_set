@@ -1,5 +1,11 @@
 # SortedSet Changelog
 
+## 1.0.4 (2025-02-24)
+
+* Enhancements
+  * Allow using `set` version 1.1.1.
+  * Update github actions, add testing Ruby 3.1-3.4. 
+
 ## 1.0.3 (2021-02-13)
 
 * Enhancements
